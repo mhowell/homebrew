@@ -2,8 +2,8 @@ require 'formula'
 
 class Tig < Formula
   homepage 'http://jonas.nitro.dk/tig/'
-  url 'http://jonas.nitro.dk/tig/releases/tig-1.2.tar.gz'
-  sha1 '38bff28a205b94623ad0c087a3073c986002dc83'
+  url 'http://jonas.nitro.dk/tig/releases/tig-1.2.1.tar.gz'
+  sha1 'cbd948f51c784ea245db5df32e922669f0a24805'
 
   def install
     system "./configure", "--prefix=#{prefix}", "--sysconfdir=#{etc}"
